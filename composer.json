@@ -1,5 +1,5 @@
 {
-	"name": "tulparstudyo/sw-panel",
+	"name": "example/sw-panel",
 	"description": "Aimeos sw-panel extension",
 	"keywords": ["aimeos", "extension"],
 	"type": "aimeos-extension",
