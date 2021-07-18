@@ -1,0 +1,22 @@
+{
+	"projectName": "sw-panel",
+	"licenseText": "proprietary",
+	"pkgs": [{
+		"name": "sw-panel CSS",
+		"file": "sw-panel.css",
+		"isDebug": true,
+		"fileIncludes": [{
+			"text": "custom.css",
+			"path": "themes/"
+		}]
+	}, {
+		"name": "sw-panel JS",
+		"file": "sw-panel.js",
+		"isDebug": true,
+		"fileIncludes": [{
+			"text": "custom.js",
+			"path": "js/"
+		}]
+	}],
+	"resources" : []
+}
