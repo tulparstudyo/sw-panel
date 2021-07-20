@@ -1,8 +1,3 @@
 /*
  * Custom sw-panel CSS
  */
-.aimeos .main-sidebar .menuitem-swordbros i.icon:before {
-    content: "\f19c";
-}.aimeos .main-sidebar .menuitem-swordbros.show i.icon:before {
-    content: "";
-}
