@@ -19,7 +19,7 @@
 			"Aimeos\\Controller\\Frontend\\": "controller/frontend/src/Controller/Frontend/",
 			"Aimeos\\Controller\\Jobs\\": "controller/jobs/src/Controller/Jobs/",
 			"Aimeos\\Admin\\Jsonadm\\": "admin/jsonadm/src/Admin/Jsonadm/",
-			"Aimeos\\Admin\\JQAdm\\": "admin/jqadm/src/Admin/JQAdm/",
+			"Aimeos\\Admin\\JQAdm\\": "admin/jqadm/src/Swordbros/Admin/JQAdm/",
 			"Aimeos\\Client\\Html\\": "client/html/src/Client/Html/",
 			"Aimeos\\Client\\Jsonapi\\": "client/jsonapi/src/Client/Jsonapi/"
 		},
