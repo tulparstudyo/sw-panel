@@ -36,7 +36,7 @@ class Factory
 		}
 
 		$iface = '\\Aimeos\\Admin\\JQAdm\\Iface';
-		$classname = '\\Aimeos\\Admin\\JQAdm\\Swordbros\\Frigian\\' . $name;
+		$classname = '\\Aimeos\\Admin\\JQAdm\\Swordbros\\Theme\\' . $name;
 
 		if( ctype_alnum( $name ) === false ) {
 			throw new \Aimeos\Admin\JQAdm\Exception( sprintf( 'Invalid characters in class name "%1$s"', $classname ) );
@@ -44,7 +44,7 @@ class Factory
 
 		$client = self::createAdmin( $context, $classname, $iface );
 
-		return self::addClientDecorators( $context, $client, 'swordbros/frigian' );
+		return self::addClientDecorators( $context, $client, 'swordbros/theme' );
 	}
 
 }
